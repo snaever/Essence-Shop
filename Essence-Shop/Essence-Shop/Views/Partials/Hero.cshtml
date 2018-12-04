@@ -1,0 +1,15 @@
+﻿    @using ContentModels = Umbraco.Web.PublishedContentModels
+
+    <section class="welcome_area bg-img background-overlay" style="background-image: url(@Model.Content.BannerImage.Url);">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-12">
+                    <div class="hero-content">
+                        <h6>@Model.Content.Smallheading</h6>
+                        <h2>@Model.Content.LargeTitle</h2>
+                        <a href="@Model.Content.CTabuttonLink" class="btn essence-btn">@Model.Content.CTabutton</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
